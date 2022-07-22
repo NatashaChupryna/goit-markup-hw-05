@@ -273,7 +273,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .benefits-text {
@@ -283,7 +283,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 10;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -504,7 +504,7 @@ img {
 .footer-container {
   display: flex;
   flex-direction: column;
-  margin-left: ;
+  margin-left: 0;
 }
 
 .logo-white-word {
@@ -695,9 +695,12 @@ img {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.portfolio-card:hover .overlay {
+.portfolio-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-card:hover .overlay {
   cursor: pointer;
   transform: translateY(0%);
 }
